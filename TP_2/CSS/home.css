@@ -1,4 +1,3 @@
-/* Archivo de estilos para la sección Home (home.css) */
 .home-section {
   text-align: center;
 }
@@ -23,7 +22,7 @@
 }
 
 .home-text h1 {
-  font-size: 3em; /* Tamaño del título aumentado */
+  font-size: 3em; 
   margin-bottom: 10px;
 }
 
@@ -31,12 +30,12 @@
   font-size: 1.2em;
 }
 
-/* Centrar el navbar en la sección Home */
+
 .navbar {
   display: flex;
   justify-content: center;
   background-color: #333;
-  padding: 15px; /* Aumentado el espacio en el encabezado */
+  padding: 15px;
 }
 
 .navbar a {
