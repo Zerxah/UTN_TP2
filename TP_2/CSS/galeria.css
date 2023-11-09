@@ -1,0 +1,42 @@
+/* Archivo de estilos para la sección Galería (galeria.css) */
+.galeria-section {
+  text-align: center;
+}
+
+.galeria-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas en la galería */
+  gap: 15px; /* Espacio entre las imágenes */
+}
+
+.galeria-container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #000; /* Borde negro alrededor de las imágenes */
+}
+
+.galeria-section h2 {
+  margin-bottom: 20px; /* Espacio entre el título y la galería */
+}
+
+
+/* Centrar el navbar en la sección Galería */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

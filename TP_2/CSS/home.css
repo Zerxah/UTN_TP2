@@ -1,0 +1,57 @@
+/* Archivo de estilos para la sección Home (home.css) */
+.home-section {
+  text-align: center;
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+}
+
+.home-container img {
+  width: 100%;
+  height: auto;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.home-text h1 {
+  font-size: 3em; /* Tamaño del título aumentado */
+  margin-bottom: 10px;
+}
+
+.home-text p {
+  font-size: 1.2em;
+}
+
+/* Centrar el navbar en la sección Home */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px; /* Aumentado el espacio en el encabezado */
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
